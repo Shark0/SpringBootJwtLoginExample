@@ -42,6 +42,7 @@ public class LoginWebSecurityConfigureAdapter extends WebSecurityConfigurerAdapt
                 .csrf().disable()
                 .authorizeRequests()
                 .antMatchers(HttpMethod.POST, Config.REGISTER_URL).permitAll()
+                .antMatchers(HttpMethod.POST, Config.LOGIN_URL).permitAll()
                 .antMatchers("/role1").hasAuthority("role1")
                 .antMatchers("/role2").hasAuthority("role2")
                 .anyRequest().authenticated()

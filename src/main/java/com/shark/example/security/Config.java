@@ -7,4 +7,5 @@ public class Config {
     public static final String TOKEN_PREFIX = "Bearer ";
     public static final String HEADER = "Authorization";
     public static final String REGISTER_URL = "/register";
+    public static final String LOGIN_URL = "/login";
 }
