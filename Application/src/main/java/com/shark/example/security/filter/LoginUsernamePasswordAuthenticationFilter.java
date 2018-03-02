@@ -35,7 +35,6 @@ public class LoginUsernamePasswordAuthenticationFilter extends UsernamePasswordA
         try {
             return authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(account, password, new ArrayList<>()));
         } catch (Exception e) {
-
             throw new RuntimeException(e);
         }
     }
