@@ -21,7 +21,6 @@ public class TestController {
         return  responseDataEntity;
     }
 
-
     @RequestMapping(value = "/role1", method = RequestMethod.GET)
     @PreAuthorize("hasAuthority('role1')")
     public ResponseDataEntity<String> role1() {

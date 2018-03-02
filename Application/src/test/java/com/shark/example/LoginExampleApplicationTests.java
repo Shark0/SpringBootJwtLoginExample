@@ -1,4 +1,4 @@
-package com.shark.loginexample;
+package com.shark.example;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,5 +12,4 @@ public class LoginExampleApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
 }
